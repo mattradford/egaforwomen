@@ -1,0 +1,345 @@
+/* Reminder
+margin-top
+margin-right
+margin-bottom
+margin-left
+*/
+
+/*Eric Meyer's reset reloaded code*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+/* remember to define focus styles! */
+
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 20px 0;
+	padding: 0;
+	background: #ffffff;
+	color: #000000;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 20px;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: purple;
+}
+
+h2 {
+	font-size: 2.6em;
+}
+
+a {
+	color: #B048B5;
+}
+
+a:hover {
+	text-decoration: none;
+	background: purple;
+	color: #ffffff;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+/* Header */
+
+#header {
+	width: 700px;
+	height: 100px;
+	margin: 0 auto 0 auto;
+	background-image: url(ega2.jpg);
+}
+
+#header h1 {
+	float: left;
+	padding: 50px 0 0 20px;
+	letter-spacing: -2px;
+	font-size: 3em;
+	color: purple;
+	font-weight: bold;
+}
+
+
+/* Header2 */
+
+#header2 {
+	width: 700px;
+	height: 25px;
+	margin: 0 auto 2em auto;
+	background: #336600;
+}
+
+
+#header2 h2 {
+	float: left;
+	padding: 5px 0 5px 20px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #fff;
+}
+
+
+/* Content */
+
+#content {
+	width: 660px;
+	margin: 0 auto;
+}
+
+/* Column One */
+
+#colOne {
+	float: right;
+	width: 460px;
+}
+
+#colOne .post {
+}
+
+#colOne .title {
+}
+
+#colOne .posted {
+	border-top: 1px solid purple;
+	font-size: x-small;
+}
+
+#colOne .story {
+	padding: 0 0px;
+	text-align: justify;
+}
+
+
+#colOne h3 {
+	padding: 10px 0 10px 0px;
+	letter-spacing: normal;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #B93B8F;
+}
+
+#colOne em {
+	font-style: italic;
+	padding: 0 14px 0 0;
+}
+
+
+#colOne .inputbox {
+	margin: 0 0 10px 30px;
+	border: 1px solid #B93B8F;
+	vertical-align: middle;
+	width: 250px;
+}
+
+#colOne .inputboxright {
+	margin: 0 0 10px 30px;
+	border: 1px solid #B93B8F;
+	vertical-align: middle;
+	width: 250px;
+	height: 100px;
+}
+
+#colOne .button {
+	margin: 10px 0 10px 0;
+	background-color: #B93B8F;
+	border: 1px solid #B93B8F;
+	color: #FFFFFF ;
+	text-align: right;
+}
+
+#colOne .addy {
+	vertical-align: top;
+}
+
+#colOne .imagefloatr {
+    border: 1px solid #B93B8F;
+	margin: 0 0 10px 20px;
+	height: 200px;
+	float: right;
+}
+
+#colOne .imagefloat {
+    border: 1px solid #B93B8F;
+	margin: 10px 10px 10px 60px;
+	height: 250px;
+
+}
+
+#colOne em.label {
+
+	margin: 0 0 0 120px;
+
+
+}
+
+/* Column Two */
+
+#colTwo {
+	float: left;
+	width: 160px;
+	border-right:2px dotted #B93B8F;
+
+}
+
+
+
+#colTwo ul {
+	margin: 0;
+	padding: 0;
+}
+
+# li {
+
+}
+
+#colTwo li li {
+	height: 23px;
+	padding: 7px 0 0 20px;
+}
+
+
+#colTwo h2 {
+	height: 30px;
+	padding: 5px 0 0 10px;
+	background: purple;
+	letter-spacing: normal;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#colTwo h3 {
+	padding: 15px 0 0 20px;
+	letter-spacing: normal;
+	font-size: 1.2em;
+	color: purple;
+	font-weight: bold;
+}
+
+#colTwo h4 {
+	padding: 15px 0 0 20px;
+	letter-spacing: normal;
+	font-size: 0.8em;
+	color: purple;
+	font-weight: bold;
+}
+
+#colTwo a {
+	text-decoration: none;
+	font-weight: bold;
+	color: purple;
+}
+
+#colTwo a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	background: purple;
+	color: #ffffff;
+}
+
+#colTwo form {
+	margin:0pt;
+	padding: 5px 10px 0px 20px;
+
+}
+
+#colTwo #textfield1 {
+	border:1px solid purple;
+	width:140px;
+	color: purple;
+}
+
+#colTwo #submit1 {
+	display: none;
+}
+
+/* Footer */
+
+#footer {
+	width: 700px;
+	height: 25px;
+	margin: 0 auto;
+	padding: 10px 0 0 10px;
+	background: #336600;
+	letter-spacing: normal;
+	text-align: center;
+	font-size: 60%;
+
+}
+
+#footer p {
+	margin: 0;
+	color: #fff;
+}
+
+#footer a {
+	color: #fff;
+}
+
+#footer a:hover {
+	text-decoration: none;
+	background: #fff;
+	color: #336600;
+}
+
+strong {
+font-weight: bold;
+}

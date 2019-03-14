@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /old
+Disallow: /images/orbit
+Disallow: /images/misc
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Adsbot-Google
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
